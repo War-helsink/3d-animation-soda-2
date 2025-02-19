@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 export interface BoundedProps {
-	as?: React.ElementType;
+	as?: React.ElementType<{ className: string }>;
 	className?: string;
 	children: React.ReactNode;
 }
