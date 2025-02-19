@@ -119,7 +119,7 @@ export const Hero: React.FC = () => {
 					</div>
 				</div>
 
-				<div className="text-side relative z-[80] grid h-dvh items-center gap-4 md:grid-cols-2">
+				<div className="text-side relative z-80 grid h-dvh items-center gap-4 md:grid-cols-2">
 					<img
 						className="w-full md:hidden"
 						alt="All Fizzi can flavors"

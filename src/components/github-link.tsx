@@ -12,7 +12,7 @@ export const GithubLink: React.FC<GithubLinkProps> = ({ className }) => {
 		>
 			<button
 				type="button"
-				className="relative p-3 rounded-full text-black after:absolute after:content-[''] after:rounded-full after:w-full after:h-full after:top-0 after:left-0 after:opacity-0 after:bg-[#FEE832] after:hover:opacity-5 after:hover:bg-[#989aa2]"
+				className="relative p-3 rounded-full text-black after:absolute after:content-[''] after:rounded-full after:w-full after:h-full after:top-0 after:left-0 after:opacity-0 after:bg-[#FEE832] hover:after:opacity-5 hover:after:bg-[#989aa2]"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

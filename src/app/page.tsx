@@ -15,6 +15,6 @@ export async function generateMetadata(): Promise<Metadata> {
 	};
 }
 
-export default async function Index() {
+export default async function RootPage() {
 	return <Slices />;
 }
