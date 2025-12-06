@@ -109,7 +109,7 @@ export const Scene: React.FC = () => {
 				{ x: 1, duration: 3, ease: "sine.inOut" },
 				1.3,
 			);
-	});
+	}, []);
 
 	return (
 		<group ref={groupRef}>
